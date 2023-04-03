@@ -1,0 +1,134 @@
+{
+  "took": 999,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "age_histogram": {
+      "buckets": [
+        {
+          "key": 0.0,
+          "doc_count": 1672,
+          "popular_classes": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 760,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 494
+              },
+              {
+                "key": "Knits",
+                "doc_count": 266
+              },
+              {
+                "key": "Blouses",
+                "doc_count": 152
+              }
+            ]
+          }
+        },
+        {
+          "key": 20.0,
+          "doc_count": 402382,
+          "popular_classes": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 156218,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 117838
+              },
+              {
+                "key": "Knits",
+                "doc_count": 80104
+              },
+              {
+                "key": "Blouses",
+                "doc_count": 48222
+              }
+            ]
+          }
+        },
+        {
+          "key": 40.0,
+          "doc_count": 382850,
+          "popular_classes": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 151620,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 98192
+              },
+              {
+                "key": "Knits",
+                "doc_count": 79344
+              },
+              {
+                "key": "Blouses",
+                "doc_count": 53694
+              }
+            ]
+          }
+        },
+        {
+          "key": 60.0,
+          "doc_count": 101422,
+          "popular_classes": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 40204,
+            "buckets": [
+              {
+                "key": "Knits",
+                "doc_count": 23484
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 22572
+              },
+              {
+                "key": "Blouses",
+                "doc_count": 15162
+              }
+            ]
+          }
+        },
+        {
+          "key": 80.0,
+          "doc_count": 4142,
+          "popular_classes": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 1824,
+            "buckets": [
+              {
+                "key": "Dresses",
+                "doc_count": 1026
+              },
+              {
+                "key": "Knits",
+                "doc_count": 836
+              },
+              {
+                "key": "Blouses",
+                "doc_count": 456
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

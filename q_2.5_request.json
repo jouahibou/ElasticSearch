@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "divisions": {
+      "terms": {
+        "field": "Division Name"
+      },
+      "aggs": {
+        "departments": {
+          "terms": {
+            "field": "Department Name"
+          }
+        }
+      }
+    }
+  }
+}

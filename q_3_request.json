@@ -1,0 +1,58 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "Clothing ID"
+          }
+        },
+        {
+          "exists": {
+            "field": "Age"
+          }
+        },
+        {
+          "exists": {
+            "field": "Title"
+          }
+        },
+        {
+          "exists": {
+            "field": "Review Text"
+          }
+        },
+        {
+          "exists": {
+            "field": "Rating"
+          }
+        },
+        {
+          "exists": {
+            "field": "Recommended IND"
+          }
+        },
+        {
+          "exists": {
+            "field": "Positive Feedback Count"
+          }
+        },
+        {
+          "exists": {
+            "field": "Division Name"
+          }
+        },
+        {
+          "exists": {
+            "field": "Department Name"
+          }
+        },
+        {
+          "exists": {
+            "field": "Class Name"
+          }
+        }
+      ]
+    }
+  }
+}

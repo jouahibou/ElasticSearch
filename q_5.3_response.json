@@ -1,0 +1,189 @@
+{
+  "took": 868,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "eval",
+        "_id": "F7N7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "927",
+          "Age": "63",
+          "Title": "",
+          "Review Text": "Love this poncho! it's casual, has a bit of a sexy vibe, comfy. great with leggings, probably boots once it's a little cooler. soft and lacey, lace is sheer so a cami is needed.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "General Petite",
+          "Department Name": "Tops",
+          "Class Name": "Sweaters"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "GrN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1094",
+          "Age": "36",
+          "Title": "Perfect summer dress",
+          "Review Text": "I bought this in the orange color. might not be the color for everyone but with my coloring looked great, very similar to the picture online. fit is perfect, very comfortable. the fabric is night, stretching but flattering. bought this with the 30% off sale, not sure i would have paid full price based on the fabric. but love that i got if for extra off the sale. wish the others were in stock because i would have bought them too.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "G7N7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "611",
+          "Age": "29",
+          "Title": "Flattering romper",
+          "Review Text": "Rompers are usually tough for me. i am petite, especially on top (5'2\", 110 lbs, 34a), but have a healthy butt and hips, which can make sizing difficult. in this romper, i tried a regular xs, and found the fit very flattering. the top was blouse-y on me, but not overly so, and the arm holes didn't gape, which is usually an issue for me with non-petite sizing. the elastic waistband is also great, as you can adjust it to hit you in a flattering spot and keep the shorts from being too short (which",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "3",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "HLN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1092",
+          "Age": "33",
+          "Title": "The details...",
+          "Review Text": "This is a great dress that i was eyeing for some time. i bought it after new year's with the 40% off discount. unfortunately the dress arrived with a defect so i have to have it fixed.\n\nthe quality of the dress is amazing. the details are truly unique. one could tell that the dress is very well made. however, it does run large. i bought the xs and feel that i could have downsized at least one to two sizes! it's very comfortable and it could be dressed up or down.\n\noverall, im happy with the purc",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "HbN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1053",
+          "Age": "42",
+          "Title": "Finally, a jumpsuit that fits the short waisted!",
+          "Review Text": "I've always loved the idea of jumpsuits, but could never find one that worked -- either the print was too crazy, or the length was too long, or the waist line looked funky on me. this one worked perfectly. i'm 5'4\" and the regular xs fit nicely. can't wait to wear this, especially in the spring/summer.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "4",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "HrN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1092",
+          "Age": "42",
+          "Title": "",
+          "Review Text": "I bought this dress thinking it would be cute for christmas in florida but when i received it i wasn't so sure about a christmas dress. i like it for a casual night out with high boots. super cute!! i received many compliments!",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "H7N7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1053",
+          "Age": "26",
+          "Title": "Favorite new piece",
+          "Review Text": "Absolutely love this piece! 5'6 and 120 lbs and ordered a small, fits perfectly. this jumpsuit has become a regular in my outfit rotation, i get compliments every time i wear it.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "ILN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "611",
+          "Age": "29",
+          "Title": "Love this romper!",
+          "Review Text": "This is the first romper i have have purchased and is so cute! i am in between a small and a medium usually (5'7, 135 lbs and athletic). the medium fit okay, but with some extra fabric--the small fit better and was much more flattering. the romper feel well-made. can't wait to wear it!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "I7N7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1053",
+          "Age": "27",
+          "Title": "Effortless jumpsuit",
+          "Review Text": "This jumpsuit is great! i finally found a jumpsuit that works with my longer torso. the fabric is so comfortable and moves with you. i'm planning to pair a thick belt with the jumpsuit over the portion with the tie, just for some added detail while wearing the piece. it's quite easy to get in and out of.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "JLN7R4cBq_YjHxYVi9r0",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1094",
+          "Age": "34",
+          "Title": "Great day dress",
+          "Review Text": "I loved wearing this outside on a hot day! the fabric is a nice quality. you can't tell in the photos, but it is a jersey/knit fabric. the color labeled red that looks orange is actually coral. it's a nice color. i usually wear a true size 2, and that's what i ordered, but i found that it is slightly big. i can wear it, but would have preferred half a size to a full size smaller. a versatile dress that you can wear often!",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      }
+    ]
+  }
+}

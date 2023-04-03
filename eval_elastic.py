@@ -1,0 +1,65 @@
+#!/usr/bin/python
+import csv
+import json
+from elasticsearch import Elasticsearch, helpers
+import warnings
+
+warnings.filterwarnings("ignore")
+
+question_number = "5.4"
+
+# Connexion au cluster
+client = Elasticsearch(hosts="http://@localhost:9200")
+
+# Mapping pour l'index "eval"
+mapping = {
+    "mappings": {
+        "properties": {
+            "Clothing ID": {"type": "integer"},
+            "Age": {"type": "integer"},
+            "Title": {"type": "text"},
+            "Review Text": {"type": "keyword"},
+            "Rating": {"type": "integer"},
+            "Recommended IND": {"type": "integer"},
+            "Positive Feedback Count": {"type": "integer"},
+            "Division Name": {"type": "keyword"},
+            "Department Name": {"type": "keyword"},
+            "Class Name": {"type": "keyword"}
+        }
+    }
+}
+
+# Création de l'index "eval" avec le mapping cohérent
+#client.indices.create(index="eval", body=mapping)
+
+# Importations du fichier csv 
+with open('Womens_Clothing.csv', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    helpers.bulk(client, reader, index='eval')
+
+# Recherche "match_all" dans l'index "eval"
+
+query = {
+        "query":{
+            "range":{
+                "Rating":{
+                    "lt":2
+                }
+            }
+        }
+        
+    }    
+    
+
+
+
+
+
+response = client.search(index="eval", body=query)
+
+# Sauvegarde de la requête et la réponse dans un fichier json
+with open("./{}.json".format("q_" + question_number + "_response"), "w") as f:
+    json.dump(dict(response), f, indent=2)
+
+with open("./{}.json".format("q_" + question_number + "_request"), "w") as f:
+    json.dump(query, f, indent=2)

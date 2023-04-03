@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "rating_stats": {
+      "stats": {
+        "field": "Rating"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "unique_departement_name": {
+      "cardinality": {
+        "field": "Department Name"
+      }
+    }
+  }
+}

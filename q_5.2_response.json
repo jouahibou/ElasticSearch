@@ -1,0 +1,34 @@
+{
+  "took": 1544,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "top_terms": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 3280,
+      "buckets": [
+        {
+          "key": "",
+          "doc_count": 84
+        },
+        {
+          "key": "#childsize. not sure where this went wrong but it's going back immediately. always wear a 0-2 in retailerpologist skirts, this size 0 runs at least two sizes too small. the material is beautiful, but if i got the size i needed i would be entirely swallowed by fabric. so disappointing.",
+          "doc_count": 4
+        }
+      ]
+    }
+  }
+}

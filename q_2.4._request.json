@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "unique_products": {
+      "cardinality": {
+        "field": "Clothing ID"
+      }
+    }
+  }
+}

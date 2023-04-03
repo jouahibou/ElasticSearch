@@ -1,0 +1,44 @@
+{
+  "took": 756,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "age_histogram": {
+      "buckets": [
+        {
+          "key": 0.0,
+          "doc_count": 1540
+        },
+        {
+          "key": 20.0,
+          "doc_count": 370615
+        },
+        {
+          "key": 40.0,
+          "doc_count": 352625
+        },
+        {
+          "key": 60.0,
+          "doc_count": 93415
+        },
+        {
+          "key": 80.0,
+          "doc_count": 3815
+        }
+      ]
+    }
+  }
+}

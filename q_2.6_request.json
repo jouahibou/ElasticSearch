@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "aggs": {
+    "departments": {
+      "terms": {
+        "field": "Department Name"
+      },
+      "aggs": {
+        "produits": {
+          "terms": {
+            "field": "Clothing ID"
+          }
+        }
+      }
+    }
+  }
+}

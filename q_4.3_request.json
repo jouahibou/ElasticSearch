@@ -1,0 +1,18 @@
+{
+  "size": 0,
+  "aggs": {
+    "class_rating": {
+      "terms": {
+        "field": "Class Name",
+        "size": 10
+      },
+      "aggs": {
+        "rating_stats": {
+          "stats": {
+            "field": "Rating"
+          }
+        }
+      }
+    }
+  }
+}

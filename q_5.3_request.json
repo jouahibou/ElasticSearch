@@ -1,0 +1,9 @@
+{
+  "query": {
+    "range": {
+      "Rating": {
+        "gte": 4
+      }
+    }
+  }
+}

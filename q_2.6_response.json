@@ -1,0 +1,364 @@
+{
+  "took": 1265,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "departments": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Tops",
+          "doc_count": 293104,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 171220,
+            "buckets": [
+              {
+                "key": 862,
+                "doc_count": 22568
+              },
+              {
+                "key": 872,
+                "doc_count": 15260
+              },
+              {
+                "key": 829,
+                "doc_count": 14756
+              },
+              {
+                "key": 868,
+                "doc_count": 12040
+              },
+              {
+                "key": 895,
+                "doc_count": 11312
+              },
+              {
+                "key": 936,
+                "doc_count": 10024
+              },
+              {
+                "key": 867,
+                "doc_count": 9828
+              },
+              {
+                "key": 850,
+                "doc_count": 9464
+              },
+              {
+                "key": 863,
+                "doc_count": 8568
+              },
+              {
+                "key": 860,
+                "doc_count": 8064
+              }
+            ]
+          }
+        },
+        {
+          "key": "Dresses",
+          "doc_count": 176932,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 50512,
+            "buckets": [
+              {
+                "key": 1078,
+                "doc_count": 28672
+              },
+              {
+                "key": 1094,
+                "doc_count": 21168
+              },
+              {
+                "key": 1081,
+                "doc_count": 16296
+              },
+              {
+                "key": 1110,
+                "doc_count": 13440
+              },
+              {
+                "key": 1095,
+                "doc_count": 9156
+              },
+              {
+                "key": 1077,
+                "doc_count": 8316
+              },
+              {
+                "key": 1086,
+                "doc_count": 8148
+              },
+              {
+                "key": 1080,
+                "doc_count": 8092
+              },
+              {
+                "key": 1083,
+                "doc_count": 6972
+              },
+              {
+                "key": 1092,
+                "doc_count": 6160
+              }
+            ]
+          }
+        },
+        {
+          "key": "Bottoms",
+          "doc_count": 106372,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 57204,
+            "buckets": [
+              {
+                "key": 1059,
+                "doc_count": 8232
+              },
+              {
+                "key": 1033,
+                "doc_count": 6160
+              },
+              {
+                "key": 1056,
+                "doc_count": 5964
+              },
+              {
+                "key": 1022,
+                "doc_count": 5740
+              },
+              {
+                "key": 1008,
+                "doc_count": 5208
+              },
+              {
+                "key": 1020,
+                "doc_count": 4424
+              },
+              {
+                "key": 1035,
+                "doc_count": 3780
+              },
+              {
+                "key": 1025,
+                "doc_count": 3500
+              },
+              {
+                "key": 1068,
+                "doc_count": 3192
+              },
+              {
+                "key": 1037,
+                "doc_count": 2968
+              }
+            ]
+          }
+        },
+        {
+          "key": "Intimate",
+          "doc_count": 48580,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 43120,
+            "buckets": [
+              {
+                "key": 169,
+                "doc_count": 1008
+              },
+              {
+                "key": 520,
+                "doc_count": 840
+              },
+              {
+                "key": 375,
+                "doc_count": 532
+              },
+              {
+                "key": 774,
+                "doc_count": 504
+              },
+              {
+                "key": 194,
+                "doc_count": 476
+              },
+              {
+                "key": 663,
+                "doc_count": 448
+              },
+              {
+                "key": 260,
+                "doc_count": 420
+              },
+              {
+                "key": 300,
+                "doc_count": 420
+              },
+              {
+                "key": 674,
+                "doc_count": 420
+              },
+              {
+                "key": 90,
+                "doc_count": 392
+              }
+            ]
+          }
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 28896,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 10276,
+            "buckets": [
+              {
+                "key": 984,
+                "doc_count": 4900
+              },
+              {
+                "key": 975,
+                "doc_count": 3248
+              },
+              {
+                "key": 964,
+                "doc_count": 2156
+              },
+              {
+                "key": 974,
+                "doc_count": 1400
+              },
+              {
+                "key": 1121,
+                "doc_count": 1344
+              },
+              {
+                "key": 985,
+                "doc_count": 1316
+              },
+              {
+                "key": 965,
+                "doc_count": 1204
+              },
+              {
+                "key": 1126,
+                "doc_count": 1176
+              },
+              {
+                "key": 1116,
+                "doc_count": 980
+              },
+              {
+                "key": 986,
+                "doc_count": 896
+              }
+            ]
+          }
+        },
+        {
+          "key": "Trend",
+          "doc_count": 3332,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 1316,
+            "buckets": [
+              {
+                "key": 1135,
+                "doc_count": 308
+              },
+              {
+                "key": 573,
+                "doc_count": 280
+              },
+              {
+                "key": 1146,
+                "doc_count": 280
+              },
+              {
+                "key": 1147,
+                "doc_count": 280
+              },
+              {
+                "key": 1145,
+                "doc_count": 252
+              },
+              {
+                "key": 569,
+                "doc_count": 140
+              },
+              {
+                "key": 1140,
+                "doc_count": 140
+              },
+              {
+                "key": 552,
+                "doc_count": 112
+              },
+              {
+                "key": 1137,
+                "doc_count": 112
+              },
+              {
+                "key": 1141,
+                "doc_count": 112
+              }
+            ]
+          }
+        },
+        {
+          "key": "",
+          "doc_count": 392,
+          "produits": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": 136,
+                "doc_count": 84
+              },
+              {
+                "key": 152,
+                "doc_count": 84
+              },
+              {
+                "key": 492,
+                "doc_count": 84
+              },
+              {
+                "key": 184,
+                "doc_count": 56
+              },
+              {
+                "key": 72,
+                "doc_count": 28
+              },
+              {
+                "key": 665,
+                "doc_count": 28
+              },
+              {
+                "key": 772,
+                "doc_count": 28
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

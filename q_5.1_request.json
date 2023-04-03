@@ -1,0 +1,18 @@
+{
+  "query": {
+    "range": {
+      "Rating": {
+        "gte": 4
+      }
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "top_terms": {
+      "terms": {
+        "field": "Review Text.keyword",
+        "size": 2
+      }
+    }
+  }
+}

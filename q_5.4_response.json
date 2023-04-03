@@ -1,0 +1,189 @@
+{
+  "took": 1323,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "eval",
+        "_id": "VrN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "32",
+          "Title": "Dress in catalog is not the same",
+          "Review Text": "I saw this dress in the catalog and immediately ran to the store to purchase. then i realized the dress in the catalog is slightly different, but the small differences is what makes the catalog dress so much more unique and worth the money! look at the top, the stripe colors are different. and the stripes flow different on the skirt part as well. and the dress was short on me and i'm two inches shorter than the model. bummer.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "5",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "ZrN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1072",
+          "Age": "60",
+          "Title": "Huge tent",
+          "Review Text": "This dress looks cute online, but it is enormous. i bought a small, but it looked more like a 3x plus size. i tried it on, just in case, and honestly it looked like a great dress for a clown. this dress must have had two feet of fabric pinned behind the model in the photo.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "2",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "bbN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "868",
+          "Age": "37",
+          "Title": "Color not as pictured",
+          "Review Text": "I had high hopes for this top based on the photos, but when it arrived it is a very thin cheap feeling top. the color is a dusty rose color that has a yellowish mottle throughout it, almost like a tie dye or slub effect.  not pretty at all.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "dbN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "868",
+          "Age": "31",
+          "Title": "Colors look nothing like online photos:(",
+          "Review Text": "When i saw this top online, i thought i'd love it and immediately ordered it in both colors.  they arrived today and i am soooo disappointed.  i have never seen such drab colors.  the blue is a muddy grayish hue (like an overcast day) and the pink is a dusty shade of peach.  yuck.  and i was hoping the ruffle at the bottom would have a chiffon-like flowy effect.  instead, the ruffle is made of a cheap looking knit.  back these go...",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "e7N7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1072",
+          "Age": "33",
+          "Title": "Listen to the reviews--pass!!",
+          "Review Text": "Man, this dress is the worst. i don't understand how it looks the way it does on the model. agree with previous reviewer - there must be a minimum of 200 pins pulling the waves and waves of extra fabric back. this dress looks so cute , but is so, so, so disappointing in person. sweater collar and cuffs - stiff and bulky. dress - billowy and sack-like - not sure how they got a belt to pull it all in. save yourself the return and do not get sucked in by the sale price and extra sale discount like",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "gLN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1072",
+          "Age": "43",
+          "Title": "Wow...",
+          "Review Text": "So disappointed. i love retailer! this was a huge disappointment. i am 5'3\" and 120 pounds. when i put it on, all i could think was that i looked just like a clown due to the big cowl neck and how large and round the dress made me look. if i wasn't so disappointed, i might have laughed. this had to have been a design mistake. i've truly never seen something so unflattering.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "grN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1075",
+          "Age": "48",
+          "Title": "Great dress",
+          "Review Text": "Such a great dress. fit is flattering. the small v cut in the front and beading around the neckline keep it from becoming a boring lbd. classy enough to wear to a funeral but can be dressed up with some killer shoes. thrilled with purchase!",
+          "Rating": "1",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "urN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1088",
+          "Age": "45",
+          "Title": "Frumpy",
+          "Review Text": "This dress had so much potential. looked cute when i received it. put it on & couldn't wait to take it off. it's shapeless, top heavy & just overall unflattering. the material could be cute....on a totally different dress. don't waste your money.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "wbN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "967",
+          "Age": "51",
+          "Title": "Tight under arms",
+          "Review Text": "This jacket was cute, however, i am normally a large with a bit of room to spare.  this has the irritating issue of not fitting under the arms and across the chest and shoulders.  it is not my shape as most other brands at retailer fit me. this jacket is not sized correctly.",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "1",
+          "Division Name": "General",
+          "Department Name": "Jackets",
+          "Class Name": "Jackets"
+        }
+      },
+      {
+        "_index": "eval",
+        "_id": "xbN7R4cBq_YjHxYVi9r1",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1088",
+          "Age": "54",
+          "Title": "A no go....",
+          "Review Text": "Contrary to the first review, there is a zipper so while it wasn't easy to get on, it did fit over my bust. i found this too small and high waisted, and i already have a high waist so i can imagine it looking empire waisted on a normal torso. what i hated was the ridiculous inverted pleat in the front of the dress which is almost impossible to see in the online photo. it made my already busty frame even wider and more unflattering. the lining was nice and soft and the sleeve length and hemline l",
+          "Rating": "1",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "4",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      }
+    ]
+  }
+}
