@@ -25,7 +25,7 @@ mapping = {
 }
 
 # Création de l'index "eval" avec le mapping cohérent
-client.indices.create(index="evale", body=mapping)
+client.indices.create(index="eval", body=mapping)
 
 # Importations du fichier csv 
 with open('Womens_Clothing.csv', encoding='utf-8') as f:
