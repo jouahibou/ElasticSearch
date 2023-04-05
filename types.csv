@@ -1,0 +1,2 @@
+Clothing ID,Age,Title,Review Text,Rating,Recommended IND,Positive Feedback Count,Division Name,Department Name,Class Name
+integer,integer,text,keyword,integer,integer,integer,keyword,keyword,keyword

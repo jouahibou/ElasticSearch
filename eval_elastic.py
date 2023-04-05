@@ -8,6 +8,10 @@ warnings.filterwarnings("ignore")
 
 question_number = "5.4"
 
+with open('types.csv') as f :
+    types = f.readline().strip().split(',')
+    field_types = f.readline().strip().split(',')
+
 # Connexion au cluster
 client = Elasticsearch(hosts="http://@localhost:9200")
 
@@ -15,22 +19,13 @@ client = Elasticsearch(hosts="http://@localhost:9200")
 mapping = {
     "mappings": {
         "properties": {
-            "Clothing ID": {"type": "integer"},
-            "Age": {"type": "integer"},
-            "Title": {"type": "text"},
-            "Review Text": {"type": "keyword"},
-            "Rating": {"type": "integer"},
-            "Recommended IND": {"type": "integer"},
-            "Positive Feedback Count": {"type": "integer"},
-            "Division Name": {"type": "keyword"},
-            "Department Name": {"type": "keyword"},
-            "Class Name": {"type": "keyword"}
+            types[i]:{'type':field_types[i]} for i in range(len(types))
         }
     }
 }
 
 # Création de l'index "eval" avec le mapping cohérent
-#client.indices.create(index="eval", body=mapping)
+client.indices.create(index="evale", body=mapping)
 
 # Importations du fichier csv 
 with open('Womens_Clothing.csv', encoding='utf-8') as f:
